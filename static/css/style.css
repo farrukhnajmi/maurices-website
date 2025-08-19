@@ -1,0 +1,137 @@
+html {
+  scroll-behavior: smooth;
+}
+a:hover{
+    color:#01547d;
+}
+
+.btn:hover, .sqs-block-button-element:hover{
+  color:#fff!important;
+}
+.center {
+  text-align:center;
+}
+.bluebg {
+  background-color:rgb(38, 83, 126);
+}
+/*Home Hero Text styling*/
+#block-904860c01ab082864572 h1, #block-ba6f671ea3d0ef894b23 h1{
+  font-family:"Rollerscript-smooth",cursive;
+  font-size:4rem;
+  line-height:2.8rem;
+}
+#block-yui_3_17_2_1_1641175903081_9666 h3{
+  line-height:.9rem;
+}
+/* hover lawrence Rd Project*/
+#block-cbbe4fa739bfa29ac6ee h1 a:hover{
+  color:#ccdee8!important;
+}
+@media only screen and (max-width:1052px){
+  #block-904860c01ab082864572 h1, #block-ba6f671ea3d0ef894b23 h1{
+    font-size: 3.1rem;
+  }
+}
+@media only screen and (max-width: 800px){
+  #block-904860c01ab082864572 h1, #block-ba6f671ea3d0ef894b23 h1{
+    font-size: 2.6rem;
+  }
+  #block-yui_3_17_2_1_1641175903081_9666 h3{
+    line-height:.1em!important;
+  }
+}
+/*announcement bar*/
+#block-yui_3_17_2_1_1641175903081_9666 h3 a:hover, .sqs-announcement-bar a:hover{
+  color:hsl(209, 21%, 80%)!important;
+}
+.header .header-announcement-bar-wrapper {
+    padding: 1.1vw;
+}
+/*nav folder styling*/
+.header-nav-folder-content{
+  background-color:#dedeeb!important;
+  background-color:hsl(209, 21%, 90%)!important;
+  padding-right:.5em!important;
+  min-width:60px!important;
+}
+ .header-layout-nav-center .header-nav {
+   flex:1 1 75%;
+}
+.header-layout-nav-center .header-actions{
+  width:20%;
+}
+.sqs-announcement-bar {
+  text-align:right;
+}
+/* hover caption on welcome chart*/
+.yui3-lightbox2 .sqs-lightbox-meta.overlay-description-visible{
+  background-color:white!important;
+}
+/*HPC image size on rental page*/
+#block-yui_3_17_2_1_1641231156575_2809{
+  max-width:60vw;
+}
+/*Accordian Dropdown color ADUs*/
+#block-yui_3_17_2_1_1641933722552_7158   .accordion-item__description
+ {
+  color:hsl(209, 54%, 32%);
+}
+/*read more summary block*/
+.sqs-block-summary-v2 .summary-read-more-link {
+  color:rgb(38, 83, 126);
+  font-weight:600;
+  background-repeat: unset;
+    background-image: unset;
+    background-size: unset;
+    background-position: unset;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+}
+.sqs-block-summary-v2 .summary-read-more-link:hover{
+  color:#737379;
+}
+/*Section BGs*/
+/* welcome quote */
+[data-section-id="61db162415fd6901d12b0c37"],[data-section-id="61d9e7ee0d7b4c59a60c0e3c"],[data-section-id="61e098a36afd172c27d56173"],[data-section-id="61d9e8fd8bc0bb15e75c22e6"]{
+  .section-background{ background:url(https://static1.squarespace.com/static/617965154767d76a0db65223/t/61e07b41d86b5b5e4e3c92dc/1642101570290/building+bg1.jpg) no-repeat;
+ background-size:cover;
+  }
+}
+/* Footer*/
+/* logo width */
+#block-yui_3_17_2_1_1641663327261_5775{
+  max-width: 300px;
+  margin:auto;
+}
+footer p a{
+  color:hsl(37, 82%, 73%)!important;
+}
+/* footer small text alignment*/
+.footer-flex-container{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.footer-flex-container > span{
+  margin:0 60px 4px 0;
+  font-size:0.8rem;
+}
+
+table {
+  border-collapse: collapse; /* Ensures borders are collapsed for a clean look */
+  width: 100%; /* Optional: Makes the table span the full width of its container */
+}
+
+th, td {
+  border: 1px solid #ccc; /* Sets a 1px solid border with a light grey color */
+  padding: 8px; /* Adds padding inside table cells */
+  text-align: left; /* Aligns text to the left within cells */
+}
+
+#collection-68a1d5416d9125395f526eae /* maurices-document-registry page */
+a {
+        color: blue !important; /* Sets the default link color to blue */
+}
