@@ -132,6 +132,15 @@ th, td {
 }
 
 #collection-68a1d5416d9125395f526eae /* maurices-document-registry page */
-a {
-        color: blue !important; /* Sets the default link color to blue */
+table {
+  border-collapse: collapse; /* Ensures borders are collapsed for a clean look */
+  width: 100%; /* Optional: Makes the table span the full width of its container */
+
+  a {
+          color: #01547d !important; /* Sets the default link color to blue */
+  }
+
+  a:hover{
+    color: blue !important;
+  }
 }
